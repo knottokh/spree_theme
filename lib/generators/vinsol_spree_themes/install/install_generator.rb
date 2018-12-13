@@ -30,7 +30,7 @@ module VinsolSpreeThemes
       def load_default_theme
         puts 'Loading and applying default spree theme...'
 
-        filepath = "#{ ::VinsolSpreeThemes::Engine.root }/lib/generators/themes/default_ori.zip"
+        filepath = "#{ ::VinsolSpreeThemes::Engine.root }/lib/generators/themes/default.zip"
 
         # creating theme object.
         theme = Spree::Theme.new(state: 'drafted', name: 'default')
